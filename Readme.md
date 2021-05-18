@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Неопознанный енот](https://up.htmlacademy.ru/htmlcss/31/user/1787059).
-* Наставник: `Неизвестно`.
+* Наставник: Анна Рус (https://htmlacademy.ru/profile/vanillawulf).
 
 ---
 
