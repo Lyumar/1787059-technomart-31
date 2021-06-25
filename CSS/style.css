@@ -1,0 +1,49 @@
+:root {
+    --basic-red: #EE3643;
+    --basic-dark: #293449;
+    --basic-green: #63A63E;
+    --basic-light: #F1F5F7;
+    --basic-white: #FFFFFF;
+    --basic-grey: #B7BFC8;
+    --basic-dark-grey: #32425C;
+    --basic-black: #000000;
+    --basic-ylellow: #FFBF47;
+    --basic-blue: #3BBCE3;
+    --basic-purple: #DC91D8;
+    --basic-light-green: #8ED78F;
+    --basic-light-pink: #F9F5F0;
+    --basic-extra-grey: #A9A9A9;
+    --basic-light-ylellow: #FFD180;
+}
+body {
+    min-width: 960px;
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", Cuprum, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--basic-white);
+    text-transform: capitalize;
+    }
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    }
+.main-navigation {
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--basic-white);
+    background-color: basic-dark:
+
+}
+.main-navigation-wrapper {
+    background-color: var(--basic-black);
+}
+
+
+
+
