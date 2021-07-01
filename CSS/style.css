@@ -15,35 +15,159 @@
     --basic-extra-grey: #A9A9A9;
     --basic-light-ylellow: #FFD180;
 }
+
 body {
-    min-width: 960px;
+    min-width: 1200px;
     margin: 0;
     padding: 0;
     font-family: "PT Sans", Cuprum, Arial, sans-serif;
-    font-size: 13px;
+    font-size: 18px;
     line-height: 24px;
-    font-weight: 400;
-    color: var(--basic-white);
+    font-weight: 400, 700;
+    color: #FFFFFF;
     text-transform: capitalize;
     }
+
 a {
     text-decoration: none;
 }
+
 img {
     max-width: 100%;
     height: auto;
     }
+
+.main-header {
+    color: #FFFFFF;
+    background-color: #F1F5F7;;
+    }
+
+.main-header-logo {
+    color: #FFFFFF;
+    background-color: #EE3643;
+    width: 220px;
+    height: 47px;
+}
+
 .main-navigation {
     font-size: 18px;
     line-height: 24px;
-    color: var(--basic-white);
-    background-color: basic-dark:
-
+    color: #FFFFFF;
+    background-color: #000000;
 }
+
+.main-navigation-iteam {
+    background-color: #63A63E;
+    width: 150px;
+    height: 42px;
+}
+
+.main-navigation-iteam a {
+    color: #FFFFFF;
+}
+
+.main-heading {
+    font-style: italic;
+    font-family: cuprum;
+    color: #EE3643;
+    width: 197px;
+    height: 71px;
+}
+
+.contacts-phone {
+    color: #EE3643;
+    font-family: cuprum;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.contacts-address {
+    color: #32425C;
+    font-family: cuprum;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+.user-navigation a {
+    font-family: cuprum;
+    font-size: 21px;
+    line-height: 21px;
+    background-color:#FFFFFF;
+    color: #000000;
+    text-align: center;
+}
+
+.login-link {
+    width: 121px;
+    height: 45px;
+}
+
+.login-registration {
+    width: 281px;
+    height: 45px;
+}
+
 .main-navigation-wrapper {
-    background-color: var(--basic-black);
+    font-size: 18px;
+    line-height: 24px;
+    font-family: cuprum;
+    color: #FFFFFF;
+    background-color: #32425C;
+    width: 940px;
+    height: 60px;
+}
+
+.site-navigation-main {
+    color: #FFFFFF;
+}
+
+.site-navigation-company {
+    color: #FFFFFF;
+}
+
+.site-navigation-catalog {
+    color: #FFFFFF;
+}
+
+.site-navigation-news {
+    color: #FFFFFF;
+}
+
+.site-navigation-special offers {
+    color: #FFFFFF;
+}
+
+.site-navigation-delivery {
+    color: #FFFFFF;
+}
+
+.site-navigation-contacts {
+    color: #FFFFFF;
 }
 
 
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+
+.container {
+    background-color:#FFFFFF;
+}
+
+.special offers-item-materials li {
+    color: #FFFFFF;
+    background-color: #FFBF47;
+    width: 300px;
+    height: 123px;
+}
+
+p.materials {
+    
+}
 
 

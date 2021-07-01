@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <title>ТЕХНОМАРТ</title>
   <link rel="icon" href="img\favicon.ico">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic;display=swap">
-  <link href="css/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic;display=swap">
+  <link href="normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="page-body">
   <header class="main-header">
     <a class="main-header-logo">
-      <img src="logo.svg" width="220" height="47" alt="Логотип ТЕХНОМАРТ">
+      <img src="#" width="220" height="47" alt="Логотип ТЕХНОМАРТ">
     </a>
     <img src="img\svg\icon-search.svg" width="17" height="17" alt="поиск">
     <form action="#" method="get">
@@ -27,38 +27,44 @@
       <p>Закладки</p>
         </li>
         <li>
+    <a> 
       <img src="img\svg\In garbage.svg" width="15" height="15" alt="корзина">    
+    </a>
       <p>Корзина:0</p> 
         </li>
-        <li><a href="#">Оформить заказ</a></li>
+        <li class="main-navigation-iteam"><a href="#">Оформить заказ</a></li>
       </ul>
     </nav>
-      <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-      <img src="img\svg\telephone.svg" width="19" height="19" alt="Телефон">
-      <a href="tel:+7800555-86-28">+7 800-555-86-28</a>
-      <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
-      <img src="img\svg\to come in.svg" width="20" height="17" alt="Войти">
-      <p>Войти</p>   
-      <a href="#">Регистрация</a>
-    <nav class="site-navigation">
-      <ul>
-        <li><a href="#">Главная</a></li>
-        <li><a href="#">Компания</a></li>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="#">Новости</a></li>
-        <li><a href="#">Спецпредложения</a></li>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Контакты</a></li>
+      <h1 class="main-heading">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+      <img src="img\svg\telephone.svg" width="19" height="19" alt="телефон">
+      <a class="contacts-phone" href="tel:+7800555-86-28">+7 800-555-86-28</a>
+      <p class="contacts-address">г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+      <img src="img\svg\to come in.svg" width="20" height="17" alt="войти">
+      <div class="user-navigation">
+        <a class="login-link" href="#">войти</a>
+        <a class="login-registration" href="#">регистрация</a>
+      </div>
+      <div class="main-navigation-wrapper">
+      <div class="container">
+      <ul class="site-navigation">
+        <li><a class="site-navigation-main" href="#">Главная</a></li>
+        <li><a class="site-navigation-company" href="#">Компания</a></li>
+        <li><a class="site-navigation-catalog" href="#">Каталог</a></li>
+        <li><a class="site-navigation-news" href="#">Новости</a></li>
+        <li><a class="site-navigation-special offers" href="#">Спецпредложения</a></li>
+        <li><a class="site-navigation-delivery" href="#">Доставка</a></li>
+        <li><a class="site-navigation-contacts" href="#">Контакты</a></li>
       </ul>
-    </nav>
+      </div>
+      </div>
   </header>
   <main class="container">
     <section class="special offers">
       <h2>Специальные предложения</h2>
       <ul class="special offers-list">
-        <li class="special offers-item">
+        <li class="special offers-item-materials">
           <a href="#">Материалы</a>
-          <p>на любой вкус</p>
+          <p class="materials">на любой вкус</p>
           <img src="img\png\icon-1.png" width="44" height="65" alt="малярные принадлежности">    
         </li>  
         <li class="special offers-item">
@@ -85,8 +91,8 @@
           <img src="img\jpg\perforatos.jpg" width="620" height="266" alt="перфораторы">    
           <a href="#">Перфораторы</a></li>
           <p>Настоящие мужские игрушки</p>
-          <img src="img\svg\icon-left.svg" width="22" height="40" alt="стрелка назад"> 
-          <img src="img\svg\1 icon-left.svg" width="22" height="40" alt="стрелка вперед">    
+          <img src="img\svg\icon-left.svg" width="22" height="40" alt="back arrow"> 
+          <img src="img\svg\1 icon-left.svg" width="22" height="40" alt="forward arrow">    
           <button class="button" type="button">открыть каталог</button>
         </li>
         <li class="special offers-item">
@@ -176,7 +182,7 @@
       <button class="button" type="button">Подробнее о компании</button>
       <h2 class="contacts">КОНТАКТЫ</h2>
       <p>Вы можете забрать товар сами, заехав в наш офис:</p>
-      <img src="img\png\Слой 5.png" width="300" height="158" alt="карта">
+      <img src="img\jpg\map.jpg" width="300" height="158" alt="map">
       <button class="button" type="button">Заблудились? Напишите нам!</button>
     </article>
   <footer class="main-footer">
