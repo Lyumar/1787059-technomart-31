@@ -20,7 +20,7 @@ body {
     min-width: 1200px;
     margin: 0;
     padding: 0;
-    font-family: "PT Sans", Cuprum, Arial, sans-serif;
+    font-family: "PT Sans", "Cuprum", "Arial", "sans-serif";
     font-size: 18px;
     line-height: 24px;
     font-weight: 400, 700;
@@ -56,6 +56,10 @@ img {
     background-color: #000000;
 }
 
+.main-navigation-list {
+    list-style: none;
+}
+
 .main-navigation-iteam {
     background-color: #63A63E;
     width: 150px;
@@ -68,7 +72,7 @@ img {
 
 .main-heading {
     font-style: italic;
-    font-family: cuprum;
+    font-family: "cuprum";
     color: #EE3643;
     width: 197px;
     height: 71px;
@@ -76,14 +80,14 @@ img {
 
 .contacts-phone {
     color: #EE3643;
-    font-family: cuprum;
+    font-family: "cuprum";
     font-size: 21px;
     line-height: 30px;
 }
 
 .contacts-address {
     color: #32425C;
-    font-family: cuprum;
+    font-family: "cuprum";
     font-size: 14px;
     line-height: 24px;
 }
@@ -93,7 +97,7 @@ img {
 }
 
 .user-navigation a {
-    font-family: cuprum;
+    font-family: "cuprum";
     font-size: 21px;
     line-height: 21px;
     background-color:#FFFFFF;
@@ -114,7 +118,7 @@ img {
 .main-navigation-wrapper {
     font-size: 18px;
     line-height: 24px;
-    font-family: cuprum;
+    font-family: "cuprum";
     color: #FFFFFF;
     background-color: #32425C;
     width: 940px;
@@ -149,25 +153,695 @@ img {
     color: #FFFFFF;
 }
 
-
-.site-navigation a:hover,
-.site-navigation a:focus,
-.user-navigation a:hover,
-.user-navigation a:focus {
-
-.container {
-    background-color:#FFFFFF;
+.site-navigation a: hover,
+.site-navigation a: focus,
+.user-navigation a: hover,
+.user-navigation a: focus {
+    background-color: #32425C;
 }
 
-.special offers-item-materials li {
-    color: #FFFFFF;
+main {
+    background-color: #FFFFFF;
+}
+
+.materials {
     background-color: #FFBF47;
+    color: #FFFFFF;
     width: 300px;
     height: 123px;
 }
 
-p.materials {
-    
+.materials h3 {
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}    
+
+.materials button {
+    background-color: transparent;
+    text-transform: uppercase;
+    width: 135px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
 }
+
+.materials button:hover,
+.materials button:focus,
+.materials button:active {
+    background-color: #FFD180;
+}
+
+.instrument {
+    background-color: #3BBCE3;
+    color: #FFFFFF;
+    width: 300px;
+    height: 123px;
+}
+
+.instrument h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}    
+
+.instrument button {
+    background-color: transparent;
+    text-transform: uppercase;
+    width: 135px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}    
+
+.instrument button:hover,
+.instrument button:focus,
+.instrument button:active {
+    background-color: #87CEEB;
+}
+
+.technics {
+    background-color: #DC91D8;
+    color: #FFFFFF;
+    width: 300px;
+    height: 123px;
+}
+
+.technics h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}    
+
+.technics button {
+    background-color: transparent;
+    text-transform: uppercase;
+    width: 135px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}    
+
+.technics button:hover,
+.technics button:focus,
+.technics button:active {
+    background-color: #D8BFD8;
+}
+
+.discounts {
+    background-color: #8ED78F;
+    color: #FFFFFF;
+    width: 300px;
+    height: 123px;
+}
+
+.discounts h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}    
+
+.discounts button {
+    background-color: transparent;
+    text-transform: uppercase;
+    width: 135px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}    
+
+.discounts button:hover,
+.discounts button:focus,
+.discounts button:active {
+    background-color: #98FB98;
+}
+
+.delivery {
+    background-color: #FFBF47;
+    color: #FFFFFF;
+    width: 300px;
+    height: 123px;
+}
+
+.delivery h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}    
+
+.delivery button {
+    background-color: transparent;
+    text-transform: uppercase;
+    width: 135px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}    
+
+.delivery button:hover,
+.delivery button:focus,
+.delivery button:active {
+    background-color: #FFD180;
+}
+
+.block-punchers {
+    background-color: #32425C;;
+    background-image: url("img\jpg\perforatos.jpg");
+    width: 620px;
+    height: 266px;
+}
+
+.block-punchers h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.block-punchers p {
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.block-punchers button {
+    background-color: #EE3643;
+    text-transform: uppercase;
+    width: 192px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}    
+
+.block-punchers button:hover,
+.block-punchers button:focus,
+.block-punchers button:active {
+    background-color: #EE3643;
+}
+
+.block-drill {
+    background-color: #A9A9A9;
+    background-image: url("img\jpg\Object (1).jpg");
+    width: 620px;
+    height: 266px;
+}
+
+.block-drill h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.block-drill p {
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.block-drill button {
+    background-color: #EE3643;
+    text-transform: uppercase;
+    width: 192px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+}    
+
+.block-drill button:hover,
+.block-drill button:focus,
+.block-drill button:active {
+    background-color: #EE3643;
+}
+
+.products {
+    background-color: #F9F5F0;
+}
+
+.products h2 {
+    text-transform: uppercase;
+    color: #32425C;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.products button {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #EE3643;;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    width: 192px;
+    height: 38px;
+    text-align: center;
+}
+
+.products-puncher-9000 {
+    border: 2px solid lightgrey;
+    width: 220px;
+    height: 318px;
+}
+
+.products-puncher-9000 h3 {
+    color: #000000;
+    text-transform: capitalize;
+    font: "PT sans";
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.products-puncher-9000 p {
+    color: #A9A9A9;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+    font: PT sans;
+    text-decoration: line-through;
+}
+
+.products-puncher-9000 button {
+    color: #FFFFFF;
+    background-color: #EE3643;
+    font: PT sans;
+    text-align: center;
+    width: 141px;
+    height: 38px;
+    font-weight: bold;
+}
+
+.products-puncher-3000 {
+    border: 2px solid lightgrey;
+    width: 220px;
+    height: 318px;
+}
+
+.products-puncher-3000 h3 {
+    color: #000000;
+    text-transform: capitalize;
+    font: "PT sans";
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.products-puncher-3000 p {
+    color: #A9A9A9;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+    font: "PT sans";
+    text-decoration: line-through;
+}
+
+.products-puncher-3000 button {
+    color: #FFFFFF;
+    background-color: #EE3643;
+    font: "PT sans";
+    text-align: center;
+    width: 141px;
+    height: 38px;
+    font-weight: bold;
+}
+
+.products-puncher-6000 {
+    border: 2px solid lightgrey;
+    width: 220px;
+    height: 318px;
+}
+
+.products-puncher-6000 h3 {
+    color: #000000;
+    text-transform: capitalize;
+    font: "PT sans";
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.products-puncher-6000 p {
+    color: #A9A9A9;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+    font: PT sans;
+    text-decoration: line-through;
+}
+
+.products-puncher-6000 button {
+    color: #FFFFFF;
+    background-color: #EE3643;
+    font: "PT sans";
+    text-align: center;
+    width: 141px;
+    height: 38px;
+    font-weight: bold;
+}
+
+.products-puncher-2000 {
+    border: 2px solid lightgrey;
+    width: 220px;
+    height: 318px;
+}
+
+.products-puncher-2000 h3 {
+    color: #000000;
+    text-transform: capitalize;
+    font: "PT sans";
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.products-puncher-2000 p {
+    color: #A9A9A9;
+    font-size: 17px;
+    line-height: 18px;
+    font-weight: bold;
+    text-align: center;
+    font: PT sans;
+    text-decoration: line-through;
+}
+
+.products-puncher-2000 button {
+    color: #FFFFFF;
+    background-color: #EE3643;
+    font: PT sans;
+    text-align: center;
+    width: 141px;
+    height: 38px;
+    font-weight: bold;
+}
+
+.producers {
+    background-color: #F9F5F0;
+}
+
+.producers h2 {
+    text-transform: uppercase;
+    color: #32425C;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.producers button {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #EE3643;;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    width: 192px;
+    height: 38px;
+    text-align: center;
+}
+
+.bosch {
+    border: 2px solid lightgrey;
+    width: 220px;
+    height: 145px;
+    text-align: center;
+}
+
+.makita {
+    border: 2px solid lightgrey;
+    width: 220px;
+    height: 145px;
+    text-align: center;
+}
+
+.dewalt {
+    border: 2px solid lightgrey;
+    width: 220px;
+    height: 145px;
+    text-align: center;
+}
+
+.interskol{
+    border: 2px solid lightgrey;
+    width: 220px;
+    height: 145px;
+    text-align: center;
+}
+
+.hitachi {
+    border: 2px solid lightgrey;
+    width: 220px;
+    height: 145px;
+    text-align: center;
+}
+
+.lg {
+    border: 2px solid lightgrey;
+    width: 220px;
+    height: 145px;
+    text-align: center;
+}
+
+.aeg {
+    border: 2px solid lightgrey;
+    width: 220px;
+    height: 145px;
+    text-align: center;
+}
+
+.metabo {
+    border: 2px solid lightgrey;
+    width: 220px;
+    height: 145px;
+    text-align: center;
+}
+
+.services {
+    background: #F1F5F7;
+}
+
+.services h3 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    font: "cuprum";
+    font-weight: normal;
+}
+
+.services p {
+    color: #000;
+    text-transform: lowercase;
+    font-size: 13px;
+    line-height: 24px;
+    font: "pt sans";
+    font-weight: normal;
+}
+
+.services-delivery a {
+    background-color: #FFFFFF;
+    color: #32425C;
+    font-size: 21px;
+    line-height: 30px;
+    font: "cuprum";
+    font-weight: bold;
+}
+
+.services-guarantee a {
+    color: white;
+    background: #32425C;
+    font-size: 21px;
+    line-height: 30px;
+    font: cuprum;
+    font-weight: bold;
+}
+
+.services-credit a {
+    color: #FFFFFF;
+    background: #32425C;
+    font-size: 21px;
+    line-height: 30px;
+    font: cuprum;
+    font-weight: bold;
+}
+
+.services ul {
+    list-style: none;
+}
+
+.car-delivery h2 {
+    color: #32425C;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    font: "cuprum";
+    font-weight: normal;
+}
+
+.car-delivery p {
+    color: #000;
+    text-transform: lowercase;
+    font-size: 13px;
+    line-height: 24px;
+    font: "pt sans";
+    font-weight: normal;
+}
+
+.info h2 {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    font: "cuprum";
+    font-weight: normal;
+}
+
+.info p {
+    color: #000;
+    text-transform: lowercase;
+    font-size: 13px;
+    line-height: 24px;
+    font: "pt sans";
+    font-weight: normal;
+}
+
+.info ul {
+    color: #000;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 24px;
+    font: "cuprum";
+    font-weight: normal;
+}
+
+.button-1 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #EE3643;;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    width: 220px;
+    height: 38px;
+    text-align: center;
+
+} 
+
+.button-2 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #EE3643;;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: normal;
+    width: 300px;
+    height: 38px;
+    text-align: center;
+}
+
+.contacts {
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    font: "cuprum";
+    font-weight: normal;
+}
+
+.main-footer {
+    background: #32425C;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 24px;
+    font: "cuprum";
+    font-weight: normal;
+}
+
+.main-footer-logo {
+    color: #FFFFFF;
+    background-color: #EE3643;
+    width: 300px;
+    height: 285px;
+}
+
+.main-footer p {
+    color: #F3F7F9;
+}
+
+.footer-contacts-phone {
+    color: #F3F7F9;
+}
+
+.footer-container-1 a {
+    color:#F1F5F7;
+}
+
+.footer-container-1 li {
+    list-style: none;
+}
+
+.footer-container-2 a {
+    color: #FFD180;
+}
+
+.footer-container-2 li {
+    list-style: none;
+}
+
+.footer-social {
+    color: #FFFFFF;
+    background: #293449;
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 18px;
+    font: "cuprum";
+    font-weight: normal;
+}
+
+.social-button li {
+    list-style: none;
+}
+
+.footer-social a {
+    color: #FFD180;
+}
+
+
+
+
+
 
 
