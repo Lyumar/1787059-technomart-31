@@ -26,6 +26,11 @@ body {
     font-weight: 400, 700;
     color: #FFFFFF;
     text-transform: capitalize;
+
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: start;
     }
 
 a {
@@ -37,23 +42,47 @@ img {
     height: auto;
     }
 
+.page {
+    height: 100%;
+}
+
 .main-header {
+    display: grid;
     color: #FFFFFF;
-    background-color: #F1F5F7;;
-    }
+    background-color: #F1F5F7;
+    margin-bottom: 70px;
+}
+
+.main-navigation {
+    display: grid;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
 
 .main-header-logo {
+    order: 0;
+    justify-self: grid-start;
     color: #FFFFFF;
     background-color: #EE3643;
     width: 220px;
     height: 47px;
 }
 
-.main-navigation {
-    font-size: 18px;
-    line-height: 24px;
-    color: #FFFFFF;
+.index {
+    height: 42px;
+    width: 940px;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-header-bar {
     background-color: #000000;
+    width: 1200;
 }
 
 .main-navigation-list {
@@ -76,6 +105,16 @@ img {
     color: #EE3643;
     width: 197px;
     height: 71px;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.information {
+    width: 940px;
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .contacts-phone {
@@ -93,6 +132,8 @@ img {
 }
 
 .site-navigation {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -123,33 +164,13 @@ img {
     background-color: #32425C;
     width: 940px;
     height: 60px;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 70px;
 }
 
-.site-navigation-main {
-    color: #FFFFFF;
-}
-
-.site-navigation-company {
-    color: #FFFFFF;
-}
-
-.site-navigation-catalog {
-    color: #FFFFFF;
-}
-
-.site-navigation-news {
-    color: #FFFFFF;
-}
-
-.site-navigation-special offers {
-    color: #FFFFFF;
-}
-
-.site-navigation-delivery {
-    color: #FFFFFF;
-}
-
-.site-navigation-contacts {
+.site-navigation a {
     color: #FFFFFF;
 }
 
@@ -164,11 +185,28 @@ main {
     background-color: #FFFFFF;
 }
 
+.container {
+    width: 940px;
+    margin: auto;
+    padding: 0;
+}
+
+.promotions {
+    width: 940px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 123px 123px 123px 123px 123px;
+}
+
 .materials {
     background-color: #FFBF47;
     color: #FFFFFF;
     width: 300px;
     height: 123px;
+    margin-bottom: 50px;
 }
 
 .materials h3 {
@@ -202,6 +240,7 @@ main {
     color: #FFFFFF;
     width: 300px;
     height: 123px;
+    margin-bottom: 50px;
 }
 
 .instrument h3 {
@@ -234,6 +273,7 @@ main {
     color: #FFFFFF;
     width: 300px;
     height: 123px;
+    margin-bottom: 50px;
 }
 
 .technics h3 {
@@ -262,10 +302,13 @@ main {
 }
 
 .discounts {
+    grid-column: 3;
+    grid-row: 2;
     background-color: #8ED78F;
     color: #FFFFFF;
     width: 300px;
     height: 123px;
+    margin-bottom: 50px;
 }
 
 .discounts h3 {
@@ -294,10 +337,13 @@ main {
 }
 
 .delivery {
+    grid-column: 3;
+    grid-row: 3;
     background-color: #FFBF47;
     color: #FFFFFF;
     width: 300px;
     height: 123px;
+    margin-bottom: 50px;
 }
 
 .delivery h3 {
@@ -326,6 +372,8 @@ main {
 }
 
 .block-punchers {
+    grid-column: 1/ 2;
+    grid-row: 2/ 3;
     background-color: #32425C;;
     background-image: url("img\jpg\perforatos.jpg");
     width: 620px;
@@ -366,6 +414,10 @@ main {
 }
 
 .block-drill {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
     background-color: #A9A9A9;
     background-image: url("img\jpg\Object (1).jpg");
     width: 620px;
@@ -405,11 +457,18 @@ main {
     background-color: #EE3643;
 }
 
-.products {
+.hits {
     background-color: #F9F5F0;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 940px;
+    height: 89px;
 }
 
-.products h2 {
+.hits h2 {
     text-transform: uppercase;
     color: #32425C;
     font-size: 30px;
@@ -417,7 +476,7 @@ main {
     font-weight: normal;
 }
 
-.products button {
+.hits button {
     text-transform: uppercase;
     color: #FFFFFF;
     background-color: #EE3643;;
@@ -427,6 +486,16 @@ main {
     width: 192px;
     height: 38px;
     text-align: center;
+    margin-top: 25px;
+}
+
+.best-punchers {
+    width: 940px;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-gap: 20px;
 }
 
 .products-puncher-9000 {
@@ -465,6 +534,7 @@ main {
 }
 
 .products-puncher-3000 {
+    grid-column: 2;
     border: 2px solid lightgrey;
     width: 220px;
     height: 318px;
@@ -571,6 +641,13 @@ main {
 
 .producers {
     background-color: #F9F5F0;
+    display: grid;
+    grid-template-columns: 1fr min-content;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 940px;
+    height: 89px;
 }
 
 .producers h2 {
@@ -591,6 +668,19 @@ main {
     width: 192px;
     height: 38px;
     text-align: center;
+    margin-top: 25px;
+}
+
+.developers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 0px;
+    width: 940px;
+    column-gap: 20px;
+    row-gap: 20px;
 }
 
 .bosch {
@@ -598,6 +688,7 @@ main {
     width: 220px;
     height: 145px;
     text-align: center;
+    padding-top: 50px;
 }
 
 .makita {
@@ -605,6 +696,7 @@ main {
     width: 220px;
     height: 145px;
     text-align: center;
+    padding-top: 50px;
 }
 
 .dewalt {
@@ -612,6 +704,7 @@ main {
     width: 220px;
     height: 145px;
     text-align: center;
+    padding-top: 50px;
 }
 
 .interskol{
@@ -619,6 +712,7 @@ main {
     width: 220px;
     height: 145px;
     text-align: center;
+    padding-top: 50px;
 }
 
 .hitachi {
@@ -626,6 +720,7 @@ main {
     width: 220px;
     height: 145px;
     text-align: center;
+    padding-top: 50px;
 }
 
 .lg {
@@ -633,6 +728,7 @@ main {
     width: 220px;
     height: 145px;
     text-align: center;
+    padding-top: 50px;
 }
 
 .aeg {
@@ -640,6 +736,7 @@ main {
     width: 220px;
     height: 145px;
     text-align: center;
+    padding-top: 50px;
 }
 
 .metabo {
@@ -647,10 +744,12 @@ main {
     width: 220px;
     height: 145px;
     text-align: center;
+    padding-top: 50px;
 }
 
 .services {
     background: #F1F5F7;
+    padding-left: 270px;
 }
 
 .services h3 {
@@ -660,6 +759,7 @@ main {
     line-height: 30px;
     font: "cuprum";
     font-weight: normal;
+    margin-top: 50px;
 }
 
 .services p {
@@ -669,37 +769,72 @@ main {
     line-height: 24px;
     font: "pt sans";
     font-weight: normal;
+    margin-bottom: 50px;
 }
 
-.services-delivery a {
+.services-delivery button {
     background-color: #FFFFFF;
     color: #32425C;
     font-size: 21px;
     line-height: 30px;
     font: "cuprum";
     font-weight: bold;
+    width: 240px;
+    height: 61px;
+    text-align: left;
+    padding: 20px;
 }
 
-.services-guarantee a {
+.services-guarantee button {
     color: white;
     background: #32425C;
     font-size: 21px;
     line-height: 30px;
     font: cuprum;
     font-weight: bold;
+    width: 240px;
+    height: 61px;
+    text-align: left;
+    padding: 20px;
 }
 
-.services-credit a {
+.services-credit button {
     color: #FFFFFF;
     background: #32425C;
     font-size: 21px;
     line-height: 30px;
     font: cuprum;
     font-weight: bold;
+    width: 240px;
+    height: 61px;
+    text-align: left;
+    padding: 20px;
 }
 
 .services ul {
     list-style: none;
+}
+
+.transportation-services {
+    background: #F1F5F7;
+}
+
+.service-department {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 940px;
+    margin-left: 220px;
+}
+
+.service-department ul {
+    list-style: none;
+}
+
+.service-department img {
+    margin-top: 20px;
 }
 
 .car-delivery h2 {
@@ -720,6 +855,20 @@ main {
     font-weight: normal;
 }
 
+.car-delivery {
+    list-style: none;
+}
+
+.info {
+    width: 940px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    padding: 0 10px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
 .info h2 {
     color: #000000;
     text-transform: uppercase;
@@ -729,7 +878,7 @@ main {
     font-weight: normal;
 }
 
-.info p {
+.info-technomart p {
     color: #000;
     text-transform: lowercase;
     font-size: 13px;
@@ -738,7 +887,7 @@ main {
     font-weight: normal;
 }
 
-.info ul {
+.info-technomart ul {
     color: #000;
     text-transform: capitalize;
     font-size: 18px;
@@ -770,15 +919,43 @@ main {
     width: 300px;
     height: 38px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .contacts {
+    padding-left: 50px;
+}
+
+.contacts p {
+    color: #000;
+    text-transform: lowercase;
+    font-size: 13px;
+    line-height: 24px;
+    font: "pt sans";
+    font-weight: normal;
+}
+
+.contacts h2 {
     color: #000000;
     text-transform: uppercase;
     font-size: 30px;
     line-height: 30px;
     font: "cuprum";
     font-weight: normal;
+}
+
+.footer-container-wrapper {
+    width: 1200;
+    background: #32425C;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+    padding: 10px;
+    width: 940px;
+    margin-left: 255px;
 }
 
 .main-footer {
@@ -791,10 +968,12 @@ main {
 }
 
 .main-footer-logo {
+    order: 0;
+    justify-self: grid-start;
     color: #FFFFFF;
     background-color: #EE3643;
-    width: 300px;
-    height: 285px;
+    width: 220px;
+    height: 47px;
 }
 
 .main-footer p {
@@ -821,21 +1000,37 @@ main {
     list-style: none;
 }
 
-.footer-social {
-    color: #FFFFFF;
+.footer-block-contacts-wrapper {
     background: #293449;
+    width: 1200;
+}
+
+.footer-block-contacts {
+    color: #FFFFFF;
     text-transform: capitalize;
     font-size: 16px;
     line-height: 18px;
     font: "cuprum";
     font-weight: normal;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 940px;
+    margin-left: 255px;
 }
 
 .social-button li {
     list-style: none;
 }
 
-.footer-social a {
+.social-button {
+    justify-self: center;
+}
+
+.feedback a {
+    color: #FFD180;
+}
+
+.founder a {
     color: #FFD180;
 }
 
