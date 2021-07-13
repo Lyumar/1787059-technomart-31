@@ -16,27 +16,21 @@
     <div class="main-header-bar">
       <div class="index"> 
     <a class="main-header-logo">
-      <img src="#" width="220" height="47" alt="Логотип ТЕХНОМАРТ">
+      <img src="#" width="220" height="47" alt="ТЕХНОМАРТ">
     </a>
     <img src="img\svg\icon-search.svg" width="17" height="17" alt="поиск">
-    <form action="#" method="get">
-      <input type="text" name="seach" placeholder="поиск:">
-    </form>
-    <nav class="main-navigation">
-      <ul class="main-navigation-list">
+    <a class="search" href="#">Поиск</a>
+    <nav>
+      <ul class="main-navigation">
         <li>
-    <a>
-      <img src="img\svg\1Shape.svg" width="14" height="16" alt="закладки">
-    </a>
-      <p>Закладки</p>
+          <img src="img\svg\1Shape.svg" width="14" height="16" alt="закладки">
+          <a class="bookmarks" href="#">Закладки</a>
         </li>
         <li>
-    <a> 
-      <img src="img\svg\In garbage.svg" width="15" height="15" alt="корзина">    
-    </a>
-      <p>Корзина:0</p> 
-        </li>
-        <li class="main-navigation-iteam"><a href="#">Оформить заказ</a></li>
+          <img src="img\svg\In garbage.svg" width="15" height="15" alt="корзина">    
+          <a class="basket" href="#">Корзина:0</a>
+        </li> 
+        <li class="main-navigation-iteam"><a href="#">Оформить</a></li> 
       </ul>
     </nav>
       </div>
@@ -44,14 +38,16 @@
     <div class="information"> 
       <h1 class="main-heading">Интернет-магазин <br> строительных материалов <br> и инструментов для ремонта</h1>
       <img src="img\svg\telephone.svg" width="19" height="19" alt="телефон">
-      <a class="contacts-phone" href="tel:+7800555-86-28">+7 800-555-86-28</a>
-      <p class="contacts-address">г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+    <div class="contacts-information">  
+      <a href="tel:+7800555-86-28">+7 800 555-86-28</a>
+      <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
+    </div>
       <img src="img\svg\to come in.svg" width="20" height="17" alt="войти">
       <div class="user-navigation">
         <a class="login-link" href="#">войти</a>
         <a class="login-registration" href="#">регистрация</a>
       </div>
-      </div>
+    </div>
     <div class="main-navigation-wrapper">
       <ul class="site-navigation">
         <li><a class="site-navigation-main" href="#">Главная</a></li>
@@ -201,10 +197,9 @@
     <div class="footer-container">
     <section class="main-footer">
       <a class="main-footer-logo">
-        <img src="logo.svg" width="220" height="47" alt="Логотип ТЕХНОМАРТ">
+        <img src="logo.svg" width="220" height="68" alt="ТЕХНОМАРТ">
       </a>
-      <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П <br> <a class="footer-contacts-phone" href="tel: +78005558628">+7 (800) 555-86-28</a></p>
-    </section>  
+    </section>
     <section class="footer-container-1"
       <ul>
         <li><a href="#">Компания</a></li>
@@ -213,7 +208,12 @@
         <li><a href="#">Доставка</a></li>
         <li><a href="#">Контакты</a></li>
       </ul> 
-      <ul class="footer-container-2">
+    </section>
+    <section class="footer-address"> 
+      <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П <br> <a class="footer-contacts-phone" href="tel: +78005558628">+7 (800) 555-86-28</a></p>
+    </section>  
+    <section class="footer-container-2"> 
+      <ul>   
         <li><a href="#">Материалы</a></li>
         <li><a href="#">Техника</a></li>
         <li><a href="#">Инструмент</a></li>
@@ -233,19 +233,16 @@
           <a> 
           <img src="img\svg\icon-vk.svg" alt="vkontakte">
           </a>
-          <p>vkontakte</p>
         </li>
         <li>
           <a> 
           <img src="img\svg\icon-fb.svg" alt="feisbuk">
           </a>
-          <p>feisbuk</p>
         </li>
         <li>
           <a> 
           <img src="img\svg\icon-insta.svg" alt="instagramm">
           </a>
-          <p>instagramm</p>
         </li>
       </ul>
     </section>
